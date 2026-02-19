@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "806271261086",
+    "project_id": "appsafelife2",
+    "storage_bucket": "appsafelife2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806271261086:android:4726d1107c0e9c30751e8f",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806271261086-4g6k5fal3tmk22j1eoe5j0qcakcmp8ft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQaETeNcTmtCUjfO_UPIfMQsobOf_04Q4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806271261086-4g6k5fal3tmk22j1eoe5j0qcakcmp8ft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
