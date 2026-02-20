@@ -1,19 +1,14 @@
 import 'package:flutter/material.dart';
-import 'sigin.dart'; // ดึงหน้า Login มาเป็นหน้าแรก
-import 'package:firebase_core/firebase_core.dart'; // เพิ่มบรรทัดนี้
-import 'firebase_options.dart';
-
-void main()  async{
-
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';      // เพราะมันวางอยู่ข้าง main.dart เลยเรียกได้เลย
+import 'screen/signin.dart';      // เพราะมันอยู่ในโฟลเดอร์ screen ต้องระบุทางเดิ
+void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
-  // 2. สั่งให้แอปเชื่อมต่อกับ Firebase
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
   runApp(const MyApp());
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 

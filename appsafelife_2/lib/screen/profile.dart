@@ -1,5 +1,3 @@
-profile
-
 import 'package:flutter/material.dart';
 import 'signin.dart'; // เรียกหน้า LoginScreen
 import 'edit_profile.dart'; // เรียกหน้า EditProfileScreen

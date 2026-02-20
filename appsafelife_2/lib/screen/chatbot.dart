@@ -5,7 +5,6 @@ class ChatMessage {
   final String text;
   final bool isUser; // true = เราพิมพ์, false = บอท/หมอ ตอบ
   final DateTime time;
-
   ChatMessage({required this.text, required this.isUser, required this.time});
 }
 

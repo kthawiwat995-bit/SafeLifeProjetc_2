@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'profile.dart';
 import 'chatbot.dart';
+import 'ai_first_aid.dart';
+import 'chatbot_page.dart';
+import 'sos_map_page.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 
@@ -79,9 +82,9 @@ class _HomeScreenState extends State<HomeScreen> with SingleTickerProviderStateM
     // หน้าต่างๆ ของ App
     final List<Widget> pages = [
       _buildHomeBody(isDark, primaryColor), // หน้าหลัก
-      const Center(child: Text("Google Map Page")),
-      const Center(child: Text("QR Scan Page")),
-      const Center(child: Text("AI Consult Page")),
+      const SOSMapPage(),
+      AIFirstAidPage(),
+      const ChatBotPage(),
       ProfileScreen(username: widget.username),
     ];
 
